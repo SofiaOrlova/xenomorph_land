@@ -824,18 +824,6 @@ html, body, h1, h2, h3, h4, h5, h6, p {
   background-size: cover;
   display: flex;
 }
-.hero-section .hero {
-  /*.menu-item-discrip{
-    grid-column-start: 7;
-    padding-right: 90px;
-  }
-  .menu-item-use{
-    padding-right: 90px;
-  }
-  .menu-item-part{
-    grid-column-end: 13;
-  }*/
-}
 .hero-section .hero .hero-logo {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -856,12 +844,12 @@ html, body, h1, h2, h3, h4, h5, h6, p {
   grid-column-end: 13;
   justify-content: space-between;
 }
-@media (min-width: 904px) {
+@media (max-width: 904px) {
   .hero-section .hero .menu {
     grid-column-start: 6;
   }
 }
-@media (min-width: 632px) {
+@media (max-width: 800px) {
   .hero-section .hero .menu {
     grid-column-start: 5;
   }
@@ -968,7 +956,6 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 .info-section .description {
   grid-column-start: 7;
   grid-column-end: 13;
-  max-width: 70ch;
 }
 @media (max-width: 904px) {
   .info-section .description {
